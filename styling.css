@@ -1,0 +1,54 @@
+@media screen and (max-width: 991px) {
+    #Container #card {
+        width: 50%;
+    }
+}
+@media screen and (max-width: 767px) {
+    #Container #card {
+        width: 100%;
+    }
+}   
+
+#title {
+    text-align: center;    
+}
+
+#Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 1em;
+}
+div > #h1 {
+    text-align: center;
+    margin-left: 60%;
+    margin-top: -2.6%;
+    margin-right: -2.6%;
+    border: 0.2em solid black;
+    font-size: medium;
+}
+
+.Beef {
+    background-color:tomato;
+}
+
+.Chiken {
+    background-color: pink;
+}
+.Sushi {
+    background-color:darkkhaki;
+}
+
+p {
+    text-align: justify;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#card {
+    background-color: grey;
+    width: 33%;
+    padding: 0.5em;
+    border: 0.3em solid black;
+    box-sizing: border-box;
+    position: relative;
+}
