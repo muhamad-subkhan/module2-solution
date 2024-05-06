@@ -48,6 +48,7 @@ p {
     background-color: grey;
     width: 33%;
     padding: 0.5em;
+    margin-bottom: 1%;
     border: 0.3em solid black;
     box-sizing: border-box;
     position: relative;
